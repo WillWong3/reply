@@ -92,7 +92,7 @@
 	             </div>
 	             <div class="logodiv">
 	           	    <div class="logo" style="font-family: 微软雅黑;font-size: 25px;margin-top: 30px;">
-	               		    基于SSH架构的BBS论坛系统&nbsp;
+	               		    在线答疑系统&nbsp;
 	                </div>
 	           		<div class="sodiv"></div>
 	             </div>

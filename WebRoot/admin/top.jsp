@@ -27,7 +27,7 @@ String path = request.getContextPath();
   <body bgColor='#9ad075' style="margin: 0;padding: 0">
 	<table width="100%" border="0" cellpadding="0" cellspacing="0">
 	  <tr>
-	    <td width='50%' height="90" style="font-size:26px; font-weight: bold;">&nbsp;&nbsp;基于SSH架构的BBS论坛系统</td>
+	    <td width='50%' height="90" style="font-size:26px; font-weight: bold;">&nbsp;&nbsp;在线答疑系统</td>
 	    <td width='50%' align="right">
 	    	<table width="550" border="0" cellspacing="0" cellpadding="0">
 		      <tr>

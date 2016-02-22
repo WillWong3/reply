@@ -66,7 +66,7 @@ A:active {
 	BACKGROUND: url(../Images/password.gif) no-repeat 2px 2px
 }
 .copyright {
-	POSITION: absolute; LINE-HEIGHT: 40px; HEIGHT: 40px; MARGIN-LEFT: -170px; LEFT: 50%
+	POSITION: absolute; LINE-HEIGHT: 80px; HEIGHT: 400px; MARGIN-LEFT: -170px; LEFT: 50%
 }
 .vcode {
 	MARGIN-LEFT: 20px; CURSOR: hand

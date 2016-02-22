@@ -24,7 +24,7 @@ public class catelogAction extends ActionSupport
 	private String message;
 	private String path;
 	
-	private TCatelogDAO catelogDAO;
+	private TCatelogDAO catelogDAO;//引入Dao组件
 	private TUserDAO userDAO;
 	
 	

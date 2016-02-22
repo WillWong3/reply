@@ -20,17 +20,17 @@ import com.opensymphony.xwork2.ActionSupport;
 
 public class huifuAction extends ActionSupport
 {
-	private int id;
-	private String title;
-	private String content;
+	private int id;//回复的ID
+	private String title;//回复标题
+	private String content;//回复内容
 	
-	private String shijian;
-	private Integer userId;
-	private Integer zhutiId;
+	private String shijian;//回复时间
+	private Integer userId;//回复用户ID
+	private Integer zhutiId;//回复主题ID
 	
-	private String message;
-	private String path;
-	
+	private String message;//提示信息
+	private String path;//
+	//引入其他DAO接口
 	private THuifuDAO huifuDAO;
 	private TZhutiDAO zhutiDAO;
 	private TUserDAO userDAO;
