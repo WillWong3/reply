@@ -11,7 +11,7 @@
 			value="com.mysql.jdbc.Driver">
 		</property>
 		<property name="url"
-			value="jdbc:mysql://localhost:3306/db_luntan?useUnicode=true&amp;amp;amp;amp;amp;amp;characterEncoding=utf-8">
+			value="jdbc:mysql://localhost:3306/db_luntan">
 		</property>
 		<property name="username" value="root"></property>
 		<property name="password" value="root"></property>

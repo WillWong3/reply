@@ -98,7 +98,7 @@
 	             </div>
 	             <div class="nav">         
 	                 <ul>    
-		                <li><a href="<%=path %>/index.action">网站首页</a></li>
+		                <li><a href="<%=path %>/index.action">首页</a></li>
 		                <li><a href="<%=path %>/qiantai/user/userReg.jsp">用户注册</a></li>
 		                
 		                <c:if test="${sessionScope.userType!=1}"> 
