@@ -12,7 +12,6 @@ import com.opensymphony.xwork2.ActionSupport;
 public class adminAction extends ActionSupport {
 	private int userId;// 用户ID
 	private String userName;// 用户名称
-	private String userType;// 用户类型//////////////////////
 	private String userPw;// 用户密码
 
 	private String message;//提示信息
@@ -102,12 +101,5 @@ public class adminAction extends ActionSupport {
 		this.userPw = userPw;
 	}
 
-	public String getUserType() {
-		return userType;
-	}
-
-	public void setUserType(String userType) {
-		this.userType = userType;
-	}
 
 }
