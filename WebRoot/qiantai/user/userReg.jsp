@@ -11,6 +11,8 @@
 	<meta http-equiv="expires" content="0"/>    
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3"/>
 	<meta http-equiv="description" content="This is my page"/>
+	<!-- Buttons 库的核心文件 -->
+  	<link rel="stylesheet" href="<%=path %>/css/buttons.css">
 	
 	<link rel="stylesheet" type="text/css" href="<%=path %>/css/header.css" />
 	<script type="text/javascript" src="<%=path %>/js/popup.js"></script>
@@ -41,17 +43,16 @@
     </script>
 	
   </head>
-  
 <body>
 <div id="header">
      <div class="header">
 	       <div class="top">
 	             <jsp:include flush="true" page="/qiantai/top.jsp"></jsp:include>  
 	       </div>
-		   <div class="main_index">
-		        <div class="content dz" style="margin-top: 10px;width: 70%;height: 100%;margin-left: 210px;" >
+		   <div class="main_index" >
+		        <div class="content dz" style="margin-top: 10px;width: 70%;height: 100%;margin-left: 210px;>
 				    <form action="<%=path %>/userReg.action" name="form1" method="post">
-	                     <table align="left" border="0" cellpadding="4" cellspacing="4">
+	                     <table align="center" border="0" cellpadding="4" cellspacing="4">
 							<tr align='center'>
 								<td style="width: 50px;" align="center">
 									账号：										    
@@ -122,16 +123,16 @@
 								</td>
 								<td align="left">
 									<input type="text" name="fujian" id="fujian" size="30" readonly="readonly"/>
-	                                <input type="button" value="上传" onclick="up()" style="width: 60px;height: 20px;"/>
+	                                <input class="button button-warning button-rounded button-small" type="button" value="上传" onclick="up()" style="width: 100px;height: 30px;"/>
 								</td>
 							</tr>
 							
 							<tr align='center'>
 							   <td style="width: 50px;" align="center"></td>
 							   <td align="left">
-							      <input type="button" value="注册" style="width: 60px;height: 22px;" onclick="zhuce();">
-	                              <input type="reset" value="重置" style="width: 60px;height: 22px;">
-							   </td>
+							      <input class="button button-primary button-rounded button-small" type="button" value="注册" style="width: 80px;" onclick="zhuce();">&nbsp; 
+	                              <input class="button button-caution button-rounded button-small" type="reset" value="重置" style="width: 100px;">
+							   </td> 
 							</tr>
 						 </table>
                      </form>

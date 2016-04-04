@@ -12,6 +12,7 @@
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3"/>
 	<meta http-equiv="description" content="This is my page"/>
 	
+	<link rel="stylesheet" href="<%=path %>/css/buttons.css">
 	<link rel="stylesheet" type="text/css" href="<%=path %>/css/header.css" />
 	<script type='text/javascript' src='<%=path %>/dwr/interface/loginService.js'></script>
     <script type='text/javascript' src='<%=path %>/dwr/engine.js'></script>
@@ -61,13 +62,13 @@
 		   <div class="main_index">
 		        <div class="content dz" style="margin-top: 10px;width: 70%;height: 100%;margin-left: 210px;" >
 				    <form action="<%=path %>/11.action" name="ThisForm" method="post">
-	                     <table align="left" border="0" cellpadding="4" cellspacing="4">
+	                     <table align="center" border="0" cellpadding="4" cellspacing="4">
 							<tr align='center'>
 								<td style="width: 50px;" align="center">
 									账号：										    
 								</td>
 								<td align="left">
-									<input type="text" name="loginname" style="width: 200px;"/>
+									<input type="text" name="loginname" style="width: 200px;" />
 								</td>
 							</tr>
 							<tr align='center'>
@@ -78,11 +79,12 @@
 									<input type="password" name="loginpw" style="width: 200px;"/>
 								</td>
 							</tr>
+							  
 							<tr align='center'>
 							   <td style="width: 50px;" align="center"></td>
 							   <td align="left">
-							      <input type="button" value="登陆" style="width: 60px;height: 22px;" onclick="check()"/>
-	                              <input type="reset" value="重置" style="width: 60px;height: 22px;"/>
+                                 <input class="button button-primary button-rounded button-small" type="button" value="登陆" style="width: 100px;" onClick="check()"/>&nbsp; 
+                                 <input class="button button-caution button-rounded button-small" type="reset" value="重置" style="width: 100px;"/>&nbsp;
 	                              <img id="indicator" src="<%=path %>/img/loading.gif" style="display:none"/>
 							   </td>
 							</tr>

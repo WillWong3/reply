@@ -13,7 +13,7 @@ String path = request.getContextPath();
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 	<meta http-equiv="description" content="This is my page">
 	<!-- Buttons 库的核心文件 -->
-  	<link rel="stylesheet" href="css/buttons.css">
+  	<link rel="stylesheet" href="<%=path %>/css/buttons.css">
 	<LINK rel=stylesheet type=text/css href="<%=path %>/css/login.css">
 	<script type='text/javascript' src='<%=path %>/dwr/interface/loginService.js'></script>
     <script type='text/javascript' src='<%=path %>/dwr/engine.js'></script>

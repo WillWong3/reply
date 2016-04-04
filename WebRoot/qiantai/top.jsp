@@ -12,10 +12,12 @@
 
   </head>
   
-  <body>
+  <body >
                  <div class="top_left">
 	                <div id="Clock" align="center" ></div>
 						<script>
+						
+
                            function tick() 
                            {
                            var hours, minutes, seconds, xfile;
@@ -91,10 +93,9 @@
 	                </div>
 	             </div>
 	             <div class="logodiv">
-	           	    <div class="logo" style="font-family: 微软雅黑;font-size: 25px;margin-top: 30px;">
+	           	    <div class="logo" style="font-family: 微软雅黑;font-size: 25px;margin-top:50px;">
 	               		    在线答疑系统&nbsp;
 	                </div>
-	           		<div class="sodiv"></div>
 	             </div>
 	             <div class="nav">         
 	                 <ul>    

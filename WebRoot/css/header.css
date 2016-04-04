@@ -16,7 +16,7 @@ A:hover {COLOR: #FF3300; TEXT-DECORATION: none;}
 
 
 /* 头部开始 */
-.header{height:200px;  }
+.header{height:200px;background:#CCFF99;}
 .top{ margin:0 auto;  position:relative; line-height:24px; height:24px; border-bottom:1px solid #E3E3E3; background:#eee}
 
 	.top_left{ position:absolute; top:0; left:20px;line-height:24px;}
@@ -26,9 +26,9 @@ A:hover {COLOR: #FF3300; TEXT-DECORATION: none;}
 		.helptext{padding-left:20px;color:#7C39A0}
 		.helptext a{color:#203769}
 	
-	.logodiv{ margin:0 auto; width:1003px;position:relative;height:128px;}
+	.logodiv{ margin:0 auto; width:1003px;position:relative;height:80px;}
 	
-	.logo{position:absolute;width:381px;top:30px;left:0px; }
+	.logo{bottom:30px;text-align:center;}
 	
 	.sodiv{position:absolute;width:525px;height:42px;top:50px; right:-10px;}
 		.soleft{width:421px;height:34px;float:left;}
