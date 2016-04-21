@@ -17,6 +17,7 @@ public class userAction extends ActionSupport
 	private String loginname;
 	private String loginpw;
 	private String name;
+	private String type;//用户类型
 
 	private String sex;
 	private String age;
@@ -52,6 +53,7 @@ public class userAction extends ActionSupport
 		user.setLoginpw(loginpw);
 		user.setName(name);
 		user.setSex(sex);
+		user.setType(type);//设置用户类型
 		
 		user.setAge(age);
 		user.setAddress(address);
@@ -86,6 +88,7 @@ public class userAction extends ActionSupport
 		user.setLoginpw(loginpw);
 		user.setName(name);
 		user.setSex(sex);
+		user.setType(type);
 		
 		user.setAge(age);
 		user.setAddress(address);
@@ -113,7 +116,7 @@ public class userAction extends ActionSupport
 	    return "succeed";
 	}
 	
-	public String userMana()
+	public String userMana()//用户管理
 	{
 		String sql="from TUser where del='no'";
 		List userList=userDAO.getHibernateTemplate().find(sql);
@@ -270,4 +273,15 @@ public class userAction extends ActionSupport
 	{
 		this.tel = tel;
 	}
+
+
+	public String getType() {
+		return type;
+	}
+
+
+	public void setType(String type) {
+		this.type = type;
+	}
+	
 }

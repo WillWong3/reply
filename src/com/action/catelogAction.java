@@ -71,7 +71,7 @@ public class catelogAction extends ActionSupport
 	}
 	
 	
-	public String banzhushezhi()//设置版主
+	public String banzhushezhi()//设置学科组长
 	{
 		HttpServletRequest request=ServletActionContext.getRequest();
 		String loginname=request.getParameter("loginname").trim();
@@ -91,7 +91,7 @@ public class catelogAction extends ActionSupport
 		catelog.setBanzhu(user.getId());
 		catelogDAO.attachDirty(catelog);
 		
-		request.setAttribute("msg", "版主设置完毕");
+		request.setAttribute("msg", "学科组长设置完毕");
 	    return "msg";
 	}
 	

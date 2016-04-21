@@ -107,7 +107,11 @@
 		                </c:if>
 		                
 		                <c:if test="${sessionScope.userType==1}"> 
-		                <li><a href="#">欢迎你：${sessionScope.user.loginname }</a></li>
+		                <li><a href="#">欢迎你：${sessionScope.user.name}</a></li>
+		                <li>
+		                <c:if test="${sessionScope.user.type==1}"><a href="#">老师</a></c:if>
+		                <c:if test="${sessionScope.user.type==2}"><a href="#">同学</a></c:if>
+		                </li>
 		                <li><a href="<%=path %>/userLogout.action">注销退出</a></li>
 		                </c:if>
 		                

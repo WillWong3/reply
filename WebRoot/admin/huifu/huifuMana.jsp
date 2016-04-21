@@ -82,7 +82,7 @@
   <body style="margin-left: 9px;margin-top: 9px;">
 	  <TABLE borderColor=#E0E0E0 cellSpacing=0 width="100%" border=1>
 				        <TR bgColor=#f0f0f0 height=20>
-				          <TD style="TEXT-INDENT: 5px" width="15%" style="font-size: 11px;">楼主</TD>
+				          <TD style="TEXT-INDENT: 5px" width="15%" style="font-size: 11px;">提问人</TD>
 				          <TD colSpan=2 style="font-size: 11px;">
 				                                        【主题】${requestScope.zhuti.title } 
 				              <c:if test='${requestScope.zhuti.shifouding=="是"}'>

@@ -14,14 +14,16 @@
 	<meta http-equiv="expires" content="0"/>    
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3"/>
 	<meta http-equiv="description" content="This is my page"/>
-	
+		<!-- Buttons 库的核心文件 -->
+  	<link rel="stylesheet" href="<%=path %>/css/buttons.css">
+  	<link rel="stylesheet" href="<%=path %>/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="<%=path %>/css/header.css" />
 	<script type="text/javascript">
          function zhutiAdd(catelogId)
 	     {
 	           <c:if test="${sessionScope.user==null}">
 		           alert("请先登录");
-		       </c:if> 
+		       </c:if>
 		       <c:if test="${sessionScope.user!=null}">
 		           var url="<%=path %>/qiantai/zhuti/zhutiAdd.jsp?catelogId="+catelogId;
 		           var ret = window.showModalDialog(url,"","dialogWidth:850px; dialogHeight:450px; dialogLeft: status:no; directories:yes;scrollbars:yes;Resizable=no;");
@@ -85,9 +87,8 @@
 						</tr>
 					</table>
 					<br/>
-					<A href="#" onclick="zhutiAdd(${requestScope.catelogId})" style="margin-left: 10px;">
-					   <IMG src="<%=path %>/img/newtopic.gif">
-					</A>
+					<button class="btn btn-warning"  onclick="zhutiAdd(${requestScope.catelogId})" style="margin-left: 10px;color:white;font-size:12px;width:80px;"> 新贴&nbsp; </button>
+					<button class="btn btn-info" style="color:white;font-size:12px;width:80px;" onclick="javascript:history.back();">&nbsp;返回</button>
 	            </div>
 				<center>
 				    &nbsp;

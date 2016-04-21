@@ -11,6 +11,7 @@ public class TUser implements java.io.Serializable
 	private String loginname;
 	private String loginpw;
 	private String name;
+	private String type;//用户类型：老师or学生
 
 	private String sex;
 	private String age;
@@ -121,6 +122,12 @@ public class TUser implements java.io.Serializable
 	public void setJifen(Integer jifen)
 	{
 		this.jifen = jifen;
+	}
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
 	}
 
 }

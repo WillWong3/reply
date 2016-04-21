@@ -47,7 +47,7 @@ String path = request.getContextPath();
 					<td width="10%">序号</td>
 					<td width="20%">板块名称</td>
 					<td width="30%">板块介绍</td>
-					<td width="10%">版主</td>
+					<td width="10%">学科组长</td>
 					
 					<td width="10%">操作</td>
 		        </tr>	
@@ -63,12 +63,12 @@ String path = request.getContextPath();
 						<s:property value="#catelog.jieshao"/>
 					</td>
 					<td bgcolor="#FFFFFF" align="center">
-						<s:property value="#catelog.user.loginname"/>
+						<s:property value="#catelog.user.name"/>
 					</td>
 					
 					<td bgcolor="#FFFFFF" align="center">
 						<input type="button" value="删除" onclick="catelogDel(<s:property value="#catelog.id"/>)"/>
-						<input type="button" value="版主设置" onclick="banzhushezhi(<s:property value="#catelog.id"/>)"/>
+						<input type="button" value="学科组长设置" onclick="banzhushezhi(<s:property value="#catelog.id"/>)"/>
 					</td>
 				</tr>
 				</s:iterator>
@@ -77,7 +77,7 @@ String path = request.getContextPath();
 			<table width='98%'  border='0'style="margin-top:8px;margin-left: 8px;">
 			  <tr>
 			    <td>
-			      <input type="button" value="添加论坛板块" style="width: 130px;" onclick="catelogAdd()" />
+			      <input type="button" value="添加答疑板块" style="width: 130px;" onclick="catelogAdd()" />
 			    </td>
 			  </tr>
 		    </table>

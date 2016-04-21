@@ -44,7 +44,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								<div style="font-family: 微软雅黑;font-size: 13px;color: #9D9D9D">帖子数：10</div>
 							</td>
 							<td>
-								<div style="font-family: 微软雅黑;font-size: 13px;color: #9D9D9D">版主：刘三</div>
+								<div style="font-family: 微软雅黑;font-size: 13px;color: #9D9D9D">学科组长：刘三</div>
 							</td>
 						</tr>
 						<tr height="40" align="center">
@@ -59,7 +59,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								<div style="font-family: 微软雅黑;font-size: 13px;color: #9D9D9D">帖子数：10</div>
 							</td>
 							<td>
-								<div style="font-family: 微软雅黑;font-size: 13px;color: #9D9D9D">版主：刘三</div>
+								<div style="font-family: 微软雅黑;font-size: 13px;color: #9D9D9D">学科组长：刘三</div>
 							</td>
 						</tr>
 						<tr height="40" align="center">
@@ -74,7 +74,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								<div style="font-family: 微软雅黑;font-size: 13px;color: #9D9D9D">帖子数：10</div>
 							</td>
 							<td>
-								<div style="font-family: 微软雅黑;font-size: 13px;color: #9D9D9D">版主：刘三</div>
+								<div style="font-family: 微软雅黑;font-size: 13px;color: #9D9D9D">学科组长：刘三</div>
 							</td>
 						</tr>
 					</table>

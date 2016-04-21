@@ -26,6 +26,8 @@ public class TUserDAO extends HibernateDaoSupport
 	public static final String LOGINPW = "loginpw";
 
 	public static final String NAME = "name";
+	
+//	public static final String TYPE = "type";
 
 	public static final String SEX = "sex";
 

@@ -56,7 +56,7 @@
 											<div style="font-family: 微软雅黑;font-size: 13px;color: #9D9D9D">帖子数：${cateLog.zhutishu }</div>
 										</td>
 										<td>
-											<div style="font-family: 微软雅黑;font-size: 13px;color: #9D9D9D">版主：${cateLog.user.loginname }</div>
+											<div style="font-family: 微软雅黑;font-size: 13px;color: #9D9D9D">学科组长：${cateLog.user.name }</div>
 										</td>
 									</tr>
 									</c:forEach>

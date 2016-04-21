@@ -13,7 +13,6 @@
 	<meta http-equiv="description" content="This is my page"/>
 	<!-- Buttons 库的核心文件 -->
   	<link rel="stylesheet" href="<%=path %>/css/buttons.css">
-	
 	<link rel="stylesheet" type="text/css" href="<%=path %>/css/header.css" />
 	<script type="text/javascript" src="<%=path %>/js/popup.js"></script>
 	<script type="text/javascript">
@@ -43,14 +42,15 @@
     </script>
 	
   </head>
+  
 <body>
 <div id="header">
      <div class="header">
 	       <div class="top">
 	             <jsp:include flush="true" page="/qiantai/top.jsp"></jsp:include>  
 	       </div>
-		   <div class="main_index" >
-		        <div class="content dz" style="margin-top: 10px;width: 70%;height: 100%;margin-left: 210px;>
+		   <div class="main_index">
+		        <div class="content dz" style="margin-top: 10px;width: 70%;height: 100%;margin-left: 210px;" >
 				    <form action="<%=path %>/userReg.action" name="form1" method="post">
 	                     <table align="center" border="0" cellpadding="4" cellspacing="4">
 							<tr align='center'>
@@ -77,12 +77,25 @@
 									<input type="text" name="name" style="width: 200px;"/>
 								</td>
 							</tr>
+							<tr align='center' >
+								<td style="width: 70px;" align="center">
+									用户类型：										    
+								</td>
+								<td align="left">
+									<select required name="type" style="width:205px">
+				                      <option value="" selected="selected">--请选择--</option>
+				                      <option value="1">老师</option>
+				                      <option value="2">学生</option>
+				                    </select>
+								</td>
+							</tr>
+							
 							<tr align='center'>
 								<td style="width: 50px;" align="center">
 									性别：										    
 								</td>
 								<td align="left">
-									<select name="sex" style="width: 120px;"><option value="男">男</option><option value="女">女</option></select>
+									<select name="sex" style="width: 205px;"><option value="男">男</option><option value="女">女</option></select>
 								</td>
 							</tr>
 							<tr align='center'>
@@ -122,7 +135,7 @@
 									头像：										    
 								</td>
 								<td align="left">
-									<input type="text" name="fujian" id="fujian" size="30" readonly="readonly"/>
+									<input type="text" name="fujian" id="fujian" size="25" readonly="readonly"/>
 	                                <input class="button button-warning button-rounded button-small" type="button" value="上传" onclick="up()" style="width: 100px;height: 30px;"/>
 								</td>
 							</tr>
@@ -130,9 +143,9 @@
 							<tr align='center'>
 							   <td style="width: 50px;" align="center"></td>
 							   <td align="left">
-							      <input class="button button-primary button-rounded button-small" type="button" value="注册" style="width: 80px;" onclick="zhuce();">&nbsp; 
-	                              <input class="button button-caution button-rounded button-small" type="reset" value="重置" style="width: 100px;">
-							   </td> 
+							    <input class="button button-primary button-rounded button-small" type="button" value="注册" style="width: 100px;" onclick="zhuce();">&nbsp; 
+	                             <input class="button button-caution button-rounded button-small" type="reset" value="重置" style="width: 100px;">
+							   </td>
 							</tr>
 						 </table>
                      </form>

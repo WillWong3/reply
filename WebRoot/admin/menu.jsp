@@ -109,12 +109,12 @@ String path = request.getContextPath();
 	        </dd>
 	      </dl>
 	      <dl class='bitem'>
-	        <dt onClick='showHide("items1_1")'><b>论坛板块管理</b></dt>
+	        <dt onClick='showHide("items1_1")'><b>答疑板块管理</b></dt>
 	        <dd style='display:block' class='sitem' id='items1_1'>
 	          <ul class='sitemu'>
-	            <li><a href='<%=path %>/catelogMana.action' target='main'>论坛板块管理</a> </li>
-	            <li><a href='<%=path %>/admin/catelog/catelogAdd.jsp' target='main'>添加论坛板块</a> </li>
-	            <li><a href='<%=path %>/zhutiMana.action' target='main'>帖子信息管理</a> </li>
+	            <li><a href='<%=path %>/catelogMana.action' target='main'>答疑板块管理</a> </li>
+	            <li><a href='<%=path %>/admin/catelog/catelogAdd.jsp' target='main'>添加答疑板块</a> </li>
+	            <li><a href='<%=path %>/zhutiMana.action' target='main'>问答信息管理</a> </li>
 	          </ul>
 	        </dd>
 	      </dl>
